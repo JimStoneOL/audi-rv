@@ -47,7 +47,7 @@ const PlayList = ({ navigation }) => {
     if (result === null) {
       const defaultPlayList = {
         id: Date.now(),
-        title: 'My Favorite',
+        title: 'Избранное',
         audios: [],
       };
 
@@ -140,7 +140,7 @@ const PlayList = ({ navigation }) => {
         onPress={() => setModalVisible(true)}
         style={{ marginTop: 15 }}
       >
-        <Text style={styles.playListBtn}>+ Add New Playlist</Text>
+        <Text style={styles.playListBtn}>+ Добавить новый плейлист</Text>
       </TouchableOpacity>
 
       <PlayListInputModal

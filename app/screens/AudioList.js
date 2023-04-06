@@ -93,7 +93,7 @@ export class AudioList extends Component {
         
                 options={[
                   {
-                    title: 'Add to playlist',
+                    title: 'Добавить в плэйлист',
                     onPress: this.navigateToPlaylist,
                   },
                 ]}

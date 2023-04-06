@@ -28,7 +28,7 @@ const PlayListInputModal = ({ visible, onClose, onSubmit }) => {
     <Modal visible={visible} animationType='fade' transparent>
       <View style={styles.modalContainer}>
         <View style={styles.inputContainer}>
-          <Text style={{ color: color.ACTIVE_BG }}>Create New Playlist</Text>
+          <Text style={{ color: color.ACTIVE_BG }}>Введите название</Text>
           <TextInput
             value={playListName}
             onChangeText={text => setPlayListName(text)}

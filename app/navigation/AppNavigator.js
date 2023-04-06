@@ -24,7 +24,7 @@ const AppNavigator = () => {
   return (
     <Tab.Navigator>
       <Tab.Screen
-        name='AudioList'
+        name='Коллекция'
         component={AudioList}
         options={{
           tabBarIcon: ({ color, size }) => (
@@ -33,7 +33,7 @@ const AppNavigator = () => {
         }}
       />
       <Tab.Screen
-        name='Player'
+        name='Проигрыватель'
         component={Player}
         options={{
           tabBarIcon: ({ color, size }) => (
@@ -42,7 +42,7 @@ const AppNavigator = () => {
         }}
       />
       <Tab.Screen
-        name='PlayList'
+        name='Плэйлист'
         component={PlayListScreen}
         options={{
           tabBarIcon: ({ color, size }) => (
